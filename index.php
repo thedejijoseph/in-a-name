@@ -48,11 +48,37 @@
             </div>
 
             <!-- apply to smaller screens -->
-            <div class="col-md-7 d-sm-block d-md-none bg-dark h-50 ">
-                <p class="text-light">Stuff</p>
+            <div class="col-md-7 d-sm-block d-md-none bg-dark mh-50 ">
+                <div class="row h-100 align-items-center">
+                    <div class="col">
+                        <div class="m-3">
+                            <p class="lead text-muted">Remember the name</p>
+                            <h1 class="display-1 fw-bolder text-light">Deji Joseph</h1>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-5 d-sm-block d-md-none bg-light h-50">
-                <p>Another stuff</p>
+            <div class="col-md-5 d-sm-block d-md-none bg-light mh-50">
+                <div class="row h-100 align-items-center">
+                    <div class="col">
+                        <div class="m-3">
+                            <p class="lead text-muted">How about you introduce yourself</p>
+                            <form action="/message.php">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">What are you called</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Marcus Aurelius?">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">A message</label>
+                                    <textarea class="form-control" id="message" rows="3" placeholder="What do you want to say">You could leave me your contact..</textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>    
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         
         </div>
